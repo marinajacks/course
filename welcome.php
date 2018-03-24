@@ -3,7 +3,6 @@
 <body>
 <?php
 
-
 	$servername = $_POST["ip"];
 	$username = $_POST["name"];
 	$password = $_POST["password"];
@@ -17,5 +16,6 @@
 	} 
 	echo "连接成功";
 	?>
+	
 </body>
 </html>
