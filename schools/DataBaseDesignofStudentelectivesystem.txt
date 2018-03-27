@@ -3,6 +3,9 @@
 #admins,课程信息表courses,选课信息表selects,学生信息表students,教师信息表teachers.这几
 #表之间存在着一些相关关系,可以使用这些键之间的关系进行关联.
 --首先,这里查看是否存在这样一个数据库,然后创建这样的数据库,如果存在就删除
+create database school;
+use school;
+
 1.管理员信息表admins
 create table admins
 (
